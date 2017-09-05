@@ -213,10 +213,6 @@
     <ResourceCompile Include="WebSocketAPIPlugin.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OBS\OBSApi\OBSApi.vcxproj">
-      <Project>{11a35235-dd48-41e2-8f40-825c78024bc0}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="jansson-2.4\win32\vs2008\jansson.vcxproj">
       <Project>{f180b9cb-d874-4689-9898-cd26395bf4de}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
